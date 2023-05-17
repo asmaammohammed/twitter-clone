@@ -1497,12 +1497,14 @@ DIV MAIN-ACCOUNT
                 font-size: 15px;
             }
 
-            .modal {
-              height: 60%;
+           .modal {
+              width: 70%;
+           ;
             }
-            .modal {
-              width: 80%;
-              height: 30%;
+           
+
+            .modal-header button {
+             display: none;
             }
         }
 
