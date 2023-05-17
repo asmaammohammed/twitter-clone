@@ -114,4 +114,5 @@ deleteButton.addEventListener('click', function(event) {
 
       resultsContainer.appendChild(resultItem);
   });
+  
 }

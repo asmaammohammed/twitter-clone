@@ -1,4 +1,4 @@
-// مثال لعرض صفحة الموقع الرئيسية بعد زمن التأخير المحدد (في هذه الحالة 3 ثواني)
 setTimeout(function() {
-    window.location.href = "form.html"; // استبدل "home.html" برابط صفحة الموقع الرئيسية الخاصة بك
-}, 3000);
+    document.querySelector('.container').style.display = 'none';
+    window.location.href = "form.html";
+  }, 3000);

@@ -24,10 +24,12 @@ nextBtn.addEventListener('click', function (event) {
   .then(function (response) {
     // Success
     alert('تم تسجيل الدخول بنجاح!');
-    window.location.href = "index.html";
+
+    window.location.href = "page.html";
   }, function (error) {
     // Error
     alert('حدث خطأ أثناء تسجيل الدخول!');
+
   });
 });
 
