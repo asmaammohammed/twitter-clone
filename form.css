@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*
+****BODY****
+*/
+body{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.login-box{
+    background: #fff;
+    padding: 30px 120px;
+    width: 550px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.logo {
+width: 30px;
+margin-bottom: 20px;
+}
+.login-box h2 {
+    margin-bottom: 20px;
+
+}
+
+.login-box button img{
+    width: 18px;
+    margin-right: 10px;
+}
+.login-box button{
+    width: 100%;
+    height: 40px;
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-box button:hover.google{
+    border: 1px solid #cbe4f9 ;
+    background-color: #f4f8fc;
+
+}
+.login-box button:hover.apple{
+    border: 1px solid rgb(197, 197, 197) ;
+background-color: #e8e6e6f7;
+
+} 
+.login-box hr {
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 5px;
+
+}
+
+.login-box span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -16px;
+
+}
+.login-box input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #999;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+
+::placeholder{
+    font-weight: 500;
+    color:#333 ;
+}
+
+
+
+.login-box form button{
+    background: #000;
+    color: #fff;
+    border: 0;
+    margin-bottom: 15px;
+
+}
+
+.login-box form button:hover{
+    background: #2b2e30;
+}
+
+.login-box .pass:hover{
+background: #e8e6e6f7;
+}
+.login-box p{
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    margin: 40px 0 50px;
+}
+.login-box p a {
+    text-decoration: none;
+    color: #359cf0;
+}
+.login-box p a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:585px ){
+    .login-box{
+        width: 500px;
+    }
+}
+@media screen and (max-width:525px ){
+    .login-box {
+        margin-left: 5px;
+       
+        padding: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .login-box h2 {
+        margin-bottom: 10px;
+    }
+
+    .login-box button {
+        margin: 10px 0;
+    }
+
+    .login-box input {
+        height: 50px;
+    }
+    .login-box form button {
+        margin-bottom: 10px;
+    }
+
+    .login-box p {
+        font-size: 12px;
+        margin: 30px 0 40px;
+    }
+
+    .login-box p a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:481px ){
+    .login-box {
+        margin-left: 5px;
+       
+        padding: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .login-box h2 {
+        margin-bottom: 10px;
+    }
+
+    .login-box button {
+        margin: 10px 0;
+    }
+
+    .login-box input {
+        height: 50px;
+    }
+    .login-box form button {
+        margin-bottom: 10px;
+    }
+
+    .login-box p {
+        font-size: 12px;
+        margin: 30px 0 40px;
+    }
+
+    .login-box p a {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:419px ){
+    .login-box {
+        margin-left: 5px;
+       
+        padding: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .login-box h2 {
+        margin-bottom: 10px;
+    }
+
+    .login-box button {
+        margin: 10px 0;
+    }
+
+    .login-box input {
+        height: 50px;
+    }
+    .login-box form button {
+        margin-bottom: 10px;
+    }
+
+    .login-box p {
+        font-size: 12px;
+        margin: 30px 0 40px;
+    }
+
+    .login-box p a {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:405px ){
+    .login-box {
+        margin-top: 50px;
+        margin-left: 20px;
+        padding: 20px;
+        width: 90%;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        border-radius: 0;
+      }
+    
+      .login-box h2 {
+        margin-bottom: 15px;
+      }
+    
+      .login-box button {
+        padding: 12px 0;
+        margin: 15px 0;
+      }
+    
+      .login-box button img {
+        width: 14px;
+        margin-right: 8px;
+      }
+    
+      .login-box span {
+        font-size: 12px;
+        margin-top: -14px;
+      }
+    
+      .login-box input {
+        height: 50px;
+        padding: 12px 8px;
+        margin: 8px 0;
+      }
+    
+      .login-box p {
+        font-size: 12px;
+        margin: 25px 0 30px;
+      }
+}
+
+
