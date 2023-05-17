@@ -1471,23 +1471,23 @@ DIV MAIN-ACCOUNT
       }
 
 
-        @media screen and (max-width:375px ){
+ @media screen and (max-width:360px ){
             .main-feed  {
-                width:400px;
+                width:370px;
                 margin-left: -30px;
                 }
     
                 
             .main-feed input {
-                margin-top: 30px;
+                margin-top: 40px;
             }
 
             .new-tweet-actions ul li i{
                 display: none;
             }
 
-            .new-tweet-actions .tweet-button{
-                margin-right: 20px;
+            .post-btn{
+              margin-bottom: 20px;
             }
           .tweeter-details i .fa-ellipsis{
             margin-left: 80px;
